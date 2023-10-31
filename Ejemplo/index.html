@@ -8,11 +8,15 @@
 <body>
     <h1 class="Verde" atributo="Atributo del Titulo">Manipulación del DOM Básico</h1> <!-- Título agregado -->
         
-    <input id="Calculo1" placeholder="Escribe el valor 'x'">
-    <input id="Calculo2" placeholder="Escribe el valor 'y'">
-    <button id="btnSumar" onclick="Click()">Suma</button>
+    <form id="Formulario">      <!--Agregamos a operación dentro de un formulario. -->
+        <input id="Calculo1" placeholder="Escribe el valor 'x'">
+        <input id="Calculo2" placeholder="Escribe el valor 'y'">
+        <button id="btnSumar">Calcular</button>
+        <!-- <button type="button" id="btnSumar">Calcular</button> al especificar el tipo de botón
+        el formulario ya no puede tomarlo type="submit"-->
 
-    <p id="Resultado"></p>
+        <p id="Resultado"></p>
+    </form>
 
     <script src="script.js"></script>   <!Esta etiqueta nos deja escribir código Js
 </body>
